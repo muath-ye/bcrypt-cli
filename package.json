@@ -2,7 +2,7 @@
   "name": "@muath-ye/bcrypt-cli",
   "version": "1.0.0",
   "description": "A Node.js application that generates a bcrypt hash of a user-provided password",
-  "main": "src/app.js",
+  "main": "node src/app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
