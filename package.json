@@ -1,0 +1,11 @@
+{
+  "name": "bcrypter",
+  "version": "1.1.0",
+  "description": "A Node.js application that generates a bcrypt hash of a user-provided password",
+  "bin": {
+    "bcrypt": "./src/app.js"
+  },
+  "dependencies": {
+    "bcrypt": "^5.1.0"
+  }
+}
