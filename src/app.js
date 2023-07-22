@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 const bcrypt = require('bcrypt');
 const saltRounds = 10; // the number of salt rounds to use
 
