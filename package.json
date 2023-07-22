@@ -12,7 +12,7 @@
     "muathye"
   ],
   "bin": {
-    "bcrypt": "./src/app.js"
+    "bcrypt": "node ./src/app.js"
   },
   "preferGlobal": true,
   "author": "Muath Alsowadi <muath.ye@gmail.com>",
