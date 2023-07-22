@@ -1,4 +1,4 @@
-const bcrypt = require("bcrypt");
+const bcrypt = require('bcrypt');
 const saltRounds = 10; // the number of salt rounds to use
 
 // get the user password from the command line arguments
@@ -22,7 +22,6 @@ if (password === '-h' || password === '--help') {
 // generate a salt and hash the password
 bcrypt.genSalt(saltRounds, (err, salt) => {
   bcrypt.hash(password, salt, (err, hash) => {
-    console.log('Hashed password:');
     console.log(hash);
   });
 });

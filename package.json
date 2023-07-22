@@ -1,10 +1,27 @@
 {
-  "name": "bcrypter",
-  "version": "1.1.0",
+  "name": "@muath-ye/bcrypt-cli",
+  "version": "1.0.0",
   "description": "A Node.js application that generates a bcrypt hash of a user-provided password",
+  "main": "src/app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "bcrypt",
+    "hash",
+    "node",
+    "js",
+    "commandline",
+    "cli",
+    "muathye"
+  ],
   "bin": {
     "bcrypt": "./src/app.js"
   },
+  "preferGlobal": true,
+  "author": "Muath Alsowadi <muath.ye@gmail.com>",
+  "repository": "muath-ye/bcrypt-cli",
+  "license": "MIT",
   "dependencies": {
     "bcrypt": "^5.1.0"
   }
