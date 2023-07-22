@@ -1,6 +1,6 @@
 {
   "name": "@muath-ye/bcrypt-cli",
-  "version": "1.2.2",
+  "version": "1.2.3",
   "description": "A Node.js application that generates a bcrypt hash of a user-provided password",
   "keywords": [
     "bcrypt",
